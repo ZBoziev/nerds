@@ -181,3 +181,116 @@ li a:not(:first-child):not(:last-child) {
     margin: 32px 0 0 0;
     background-color:  rgba(239, 200, 73, 1);
 }
+
+.line-separate{
+    width: 1158px;
+    height: 2px;
+    border-radius: 0px;
+    background-color: rgba(238, 238, 238, 1);
+}
+
+.description-section{
+    display: flex;
+    width: 1160px;
+}
+
+.description-section-title{
+    width: 650px;
+}
+
+.description-section-heading{
+    margin: 73px 0 0 0;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;  
+}
+
+.description-section-text{
+    width: 646px;
+}
+
+.description-section-text-task{
+    margin: 40px 0 0 0;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.description-section-text-items{
+    display: block;
+    width: 431px;
+    margin: 23px 0 0 0;
+}
+
+.description-section-text-list{
+    display: flex;
+}
+
+.description-section-dash{
+    width: 25px;
+    height: 2px;
+    margin: 27px 7px 0 0;
+    background-color: rgba(251, 86, 90, 100%);
+    
+}
+
+.description-section-list-text{
+    margin: 0;
+    margin-top: 15px;
+}
+
+.description-section-text-items:first-child{
+    margin-top: 0;
+}
+
+.success-section{
+    width: 360px;
+    margin: 39px 0 0 150px;
+}
+
+.success-section-title{
+    margin: 37px 0 0 0;
+    text-align: center;
+}
+
+.success-section-percent{
+    display: flex;
+    margin: 31px 0 0 0;
+    gap: 20px;
+}
+
+.description-success-section-percent{
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: left;
+    gap: 20px;
+}
+
+.success-section-percent-description{
+    display: flex;
+    gap: 15px;
+}
+
+.success-section-percent-description-text{
+    display: flex;
+    width: 113px;
+    gap: 15px;
+    margin: 10px 0 0 0;
+    font-family: "Roboto";  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
