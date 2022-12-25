@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+}
+
+.button {
+    height: 50px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.site-header{
+    background-color: rgba(238, 238, 238, 1);
+}
+
+.header-container{
+    display: flex;
+    width: 1159.84px;
+    margin: 48.09px auto;
+}
+
+.nerds-logo{
+    width: 159.87px;
+    height: 65.02px;
+
+}
+
+.logo-menu{
+    width: 437px;
+    margin-left: 202.13px;
+    
+}
+
+ul { 
+    display: flex;
+    list-style: none;
+    padding: 0;
+ }
+
+ li {
+    display: flex;
+    gap: 45px;
+ }
+
+.menu-list{
+    display: flex;
+    margin-left: 45px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color:rgba(0, 0, 0, 1);
+}
+
+li a:not(:first-child):not(:last-child) {
+    margin-left: 0;
+}
+
+.header-basket{
+    position: relative;
+    width: 114.84px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 246px;
+    padding: 0;
+    background-color: rgba(238, 238, 238, 1);
+    border: 0;
+    cursor: pointer;
+    font-family: 'Roboto' sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.basket-image{
+    position: absolute;
+    left: -17px;
+    top: 8px;
+    margin-right: 24.74px;
+}
+
+.hero-section{
+    width: 1157px;
+}
+
+.hero-heading{
+    width: 400px;
+    margin: 78px 0 0 0;
+    font-family: "Roboto";
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.hero-text{
+    width: 400px;
+    margin: 25px 0 0 0;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.button-hero-section{
+    width: 240px;
+    margin-top: 28px;
+    background-color: rgba(251, 86, 90, 1);
+}
+    
