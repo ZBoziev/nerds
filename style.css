@@ -192,6 +192,7 @@ li a:not(:first-child):not(:last-child) {
 .description-section{
     display: flex;
     width: 1160px;
+    margin-bottom: 73px;
 }
 
 .description-section-title{
@@ -291,6 +292,103 @@ li a:not(:first-child):not(:last-child) {
     line-height: 18px;
     letter-spacing: 0px;
     text-align: left;
-
 }
 
+.partners-section{
+    display: flex;
+    width: 1085px;
+    margin: 45px auto 44px;
+}
+
+.partners-section-line{
+    width: 2px;
+    height: 52px;
+    background-color: #EEEEEE;
+}
+
+.nerds-map-section{
+    position: relative;
+    width: 1440px;
+    margin-top: 80px;
+    background-image: url("img/nerds-map.png");
+}
+
+.nerds-contact-info{
+    width: 319px;
+    margin: 54px 0 54px 140px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.nerds-contact-heading{
+    margin: 49px 0 0 50px;
+    font-family: "Roboto";  
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.nerds-contact-text{
+    width: 230px;
+    margin: 22.71px 0 0 50px;
+    font-family: "Roboto"; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.nerds-contact-button{
+    width: 219px;
+    margin: 37.29px 0 47px 50px;
+    background-color: rgba(251, 86, 90, 1);
+}
+
+.nerds-map-marke{
+    position: absolute;
+    width: 231px;
+    height: 190px;
+    left: 825px;
+    top: 85px;
+}
+
+.footer-social-media{
+    width: 1060px;
+}
+
+.social-media{
+    width: 261px;
+    margin: 68px 0 68px 0;
+    gap: 9px;
+}
+
+.social-media-image{
+    gap: 9px;
+}
+
+.footer-information{
+    width: 660px;
+    margin: 75px 0 74px 139px;
+}
+
+.footer-heading{
+    margin: 0;
+    font-family: "Roboto"; 
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.footer-text{
+    margin: 10px 0 0 0;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
