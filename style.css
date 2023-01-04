@@ -52,7 +52,7 @@ body {
 .logo-menu{
     width: 437px;
     margin-left: 202.13px;
-    
+    padding-top: 15px;
 }
 
 ul { 
@@ -67,6 +67,7 @@ ul {
  }
 
 .menu-list{
+    position: relative;
     display: flex;
     margin-left: 45px;
     text-decoration: none;
@@ -86,7 +87,7 @@ li a:not(:first-child):not(:last-child) {
     position: relative;
     width: 114.84px;
     height: 30px;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-left: 246px;
     padding: 0;
     background-color: rgba(238, 238, 238, 1);
@@ -391,4 +392,304 @@ li a:not(:first-child):not(:last-child) {
     line-height: 22px;
     letter-spacing: 0px;
     text-align: left;
+}
+
+
+
+/* страница каталог */
+
+.container-catalog{
+    margin: 0 auto;
+}
+
+.site-header-catalog{
+    padding-top: 25px;
+    background-color: rgba(238, 238, 238, 1);
+}
+
+.header-main-heading{
+    display: block;
+    flex-direction: column;
+}
+
+.catalog-header-line{
+    position: relative;
+    top: -11px;
+    left: 66px;
+    width: 73px;
+    height: 2px;
+    background-color: rgba(251, 86, 90, 1);
+}
+
+.catalog-heading{
+    width: 726px;
+    margin: 78px auto;
+    padding-bottom: 108px;
+}
+
+.catalog-main-container{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.catalog-main-head{
+    display: flex;
+    width: 1159px;
+}
+
+.catalog-head-properties{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.catalog-sorting{
+    margin-left: 285px;
+}
+
+.catalog-head-prop{
+    padding-top: 7px;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.catalog-head-price-sorting{
+    margin-left: 266px;
+}
+.catalog-head-type-sorting{
+    margin-left: 25px;
+    color: rgba(0, 0, 0, 1);
+    opacity: 0.3;
+}
+
+.catalog-head-title-sorting{
+    margin-left: 25px;
+    opacity: 0.3;
+}
+
+.button-dirrection{
+    height: 10px;
+    margin-left: 46px;
+    margin-top: 30px;
+    border: none;
+    background-color: #ffffff
+}
+.catalog-dirrection-image{
+    width: 11px;
+    height: 10px;
+    border: none;
+}
+
+.main-block{
+    display: flex;
+    margin: 48px 0 0 0;
+}
+.catalog-main-filters{
+    width: 260px;
+}
+
+.slide-filter{
+    position: relative;
+    width: 260px;
+    height: 80px;
+    margin: 0 0 22px 0;
+    background: rgba(238, 238, 238, 1);
+}
+
+.slide-line{
+    position: absolute;
+    width: 205px;
+    height: 2px;
+    top: 34px;
+    left: 30px;
+    background: rgba(215, 220, 223, 1);
+}
+
+.slide-line-green{   
+    position: absolute;
+    width: 138px;
+    height: 4px;
+    top: 33px;
+    left: 30px;
+    background: rgba(0, 202, 116, 1);
+
+}
+
+.circkle-slide-1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 32px;
+    left: 28px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+}
+
+.circkle-slide-2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 32px;
+    right: 80px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+}
+
+.circkle-small-slide{
+    width: 4px;
+    height: 4px;
+    margin: 8px 8px 8px 8px;
+    background: rgba(171, 171, 171, 1);
+    border-radius: 50%;
+}
+
+.catalog-price-filters{
+    display: flex;
+}
+
+.filter-fr{
+    margin: 10px 11px 0 0;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.filter-prise{
+    width: 80px;
+    height: 38px;
+    padding-top: 8px;
+    background-color: rgba(238, 238, 238, 1);
+    border-radius: 3px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.price-from{
+    margin-right: 33px;
+}
+
+.main-filters-grid{
+    width: 185px;
+}
+
+.filters-grid{
+    margin: 54px 0 0 0;
+    text-transform: uppercase;
+}
+
+.catalog-container-grid{
+    display: flex;
+}
+
+.grid-radio-on-image{
+    width: 25px;
+    height: 25px;
+    margin: 13px 11px 0 0;
+    cursor: pointer;
+}
+
+.grid-radio-off-image{
+    width: 25px;
+    height: 25px;
+    margin: 13px 11px 0 0;
+    cursor: pointer;
+}
+
+.grid-text{
+    margin: 17px 11px 0 0;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(40, 49, 54, 1);
+}
+
+.main-filters-peculiarities{
+    width: 208px;
+}
+
+.filters-peculiarities{
+    margin: 46px 0 0 0;
+    text-transform: uppercase;
+}
+
+.peculiarities-checkbox-on-image{
+    width: 25px;
+    height: 25px;
+    margin: 17px 11px 0 0;
+    cursor: pointer;
+}
+
+.peculiarities-checkbox-off-image{
+    width: 25px;
+    height: 25px;
+    margin: 17px 11px 0 0;
+    cursor: pointer;
+}
+
+.button-show-filters{
+    width: 260px;
+    margin: 50px 0 0 0;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: rgba(238, 238, 238, 1);
+    color: black;
+
+}
+
+.main-block-tamplates{
+    display: flex;
+    flex-wrap: wrap;
+    width: 760px;
+    margin: 0 0 0 140px;
+    gap: 40px 30px;
+}
+
+.template-image{
+    width: 360px;
+    height: 620px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.page-buttons{
+    margin: 54px 0 60px 0;
+}
+
+.button-page{
+    width: 50px;
+    margin: 0 11px 0 0;
+    padding: 0;
+    border: 3px solid rgba(219, 219, 219, 1);
+    background-color:  rgba(238, 238, 238, 1);
+    color: rgba(0, 0, 0, 1);
+}
+
+.main-button-page{
+    width: 260px;
+    margin: 0;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
 }
